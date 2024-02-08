@@ -1,9 +1,7 @@
-const btn = document.querySelector(".btn");
+const button = document.querySelector(".button");
 const search = document.querySelector(".search");
 const input = document.querySelector(".input");
 
-btn.addEventListener("click", () => {
-  input.value = "";
+button.addEventListener("click", () => {
   search.classList.toggle("active");
-  input.focus(); // when click, it automatically selects the textbox search
 });
